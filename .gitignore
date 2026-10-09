@@ -1,0 +1,4 @@
+generated/
+upstream/
+__pycache__/
+resources/*.sml

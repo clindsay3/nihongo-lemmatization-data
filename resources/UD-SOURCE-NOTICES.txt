@@ -1,0 +1,64 @@
+Universal Dependencies and Wikidata source notices
+
+The Simplemma 2.0.0 source at revision
+22a19bd457e332fd9b109ebf30ffdbb867d999ad documents an override layer mined from
+Universal Dependencies training treebanks. Its downloader selects UD 2.18;
+the miner pools all available training treebanks for each language. The
+committed overrides are then merged into the packaged dictionaries.
+https://github.com/adbar/simplemma/tree/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training
+
+Credits belong to the Universal Dependencies project and each source
+treebank's authors and contributors. The corresponding project pages link
+the treebanks and their individual credits and licenses:
+https://universaldependencies.org/
+https://universaldependencies.org/de/index.html
+https://universaldependencies.org/fr/index.html
+https://universaldependencies.org/es/index.html
+https://universaldependencies.org/ru/index.html
+https://universaldependencies.org/nl/index.html
+
+Source history is not available for every entry. LICENSE-PROVENANCE.json
+records the pinned generation scripts and committed override files. A matching
+word/lemma pair does not establish exclusive origin. Training inputs must be
+distinguished from datasets used only for evaluation; this notice does not
+assert that every treebank listed by UD contributed a shipped mapping.
+
+French ParTUT (UD 2.18)
+
+The treebank was developed at the University of Turin. Contributors identified
+by the source: Cristina Bosco and Manuela Sanguinetti.
+https://github.com/UniversalDependencies/UD_French-ParTUT/tree/r2.18
+https://raw.githubusercontent.com/UniversalDependencies/UD_French-ParTUT/r2.18/README.md
+The dataset declares Creative Commons Attribution-NonCommercial-ShareAlike 4.0.
+Its original notice and full license text are included in
+UD-FRENCH-PARTUT-LICENSE.txt. Trailing line whitespace is removed; wording is
+unchanged.
+
+Russian SynTagRus (UD 2.18)
+
+The source treebank is developed by the Computational Linguistics Laboratory,
+A.A. Kharkevich Institute of Information Transmission Problems, Russian Academy
+of Sciences. UD data contributors identified by the source: Kira Droganova,
+Olga Lyashevskaya and Daniel Zeman.
+https://github.com/UniversalDependencies/UD_Russian-SynTagRus/tree/r2.18
+https://raw.githubusercontent.com/UniversalDependencies/UD_Russian-SynTagRus/r2.18/README.md
+The dataset declares Creative Commons Attribution-NonCommercial-ShareAlike 4.0.
+Its original license notice is included verbatim in
+UD-RUSSIAN-SYNTAGRUS-LICENSE.txt; the full CC BY-NC-SA 4.0 text is also included
+in UD-FRENCH-PARTUT-LICENSE.txt.
+
+These are original dataset terms and source credits. Their inclusion does not
+grant additional permissions, establish per-entry provenance or relicense
+third-party material. Nihongo's explicit corrections and conversion to editable
+tables are identified in corrections.json, NOTICES.txt and provenance.json.
+
+Wikidata Lexeme fill
+
+The pinned Simplemma builder allows a Wikidata fill layer for German, Spanish,
+Russian and Dutch; French is explicitly excluded. Credits belong to Wikidata
+Lexeme contributors. Wikidata's licensing policy releases structured Lexeme
+data under CC0:
+https://www.wikidata.org/wiki/Wikidata:Licensing
+https://creativecommons.org/publicdomain/zero/1.0/
+The extracted fill files are not included in the upstream Git tree, so this
+notice does not claim an exact contribution count for that layer.

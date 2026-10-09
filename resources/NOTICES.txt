@@ -1,0 +1,40 @@
+Nihongo bundled lemmatization data
+
+Nihongo and Nihongo Lessons use Simplemma 2.0.0 linguistic resources for German, French, Spanish, Russian and Dutch. The Swift implementation is adapted from Simplemma, copyright Adrien Barbaresi and contributors, under the MIT license.
+https://github.com/adbar/simplemma/tree/v2.0.0
+
+The linguistic resources have their own licenses. MIT applies to the implementation, not to all dictionary data. Simplemma 2.0.0 credits these sources, without per-entry source attribution:
+- Michal Měchura's lemmatization lists, Open Database License 1.0 (ODbL): https://github.com/michmech/lemmatization-lists
+- Wiktionary contributors and Kaikki: https://kaikki.org/ ; https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+- FreeLing lexicons and their original authors: https://github.com/TALP-UPC/FreeLing/blob/master/COPYING
+- spaCy lookup data and contributors: https://github.com/explosion/spacy-lookups-data
+- UniMorph contributors: https://unimorph.github.io/
+- Wikinflection corpus by Eleni Metheniti, Creative Commons Attribution 4.0: https://github.com/lenakmeth/Wikinflection-Corpus
+- Universal Dependencies contributors: the documented Simplemma override-generation pipeline pools each language's available UD training treebanks. See UD-SOURCE-NOTICES.txt for source credits and the pinned generation provenance, including French ParTUT and Russian SynTagRus dataset notices.
+- Wikidata Lexeme contributors: the documented fill layer for German, Spanish, Russian and Dutch uses structured Lexeme data released under CC0. French is excluded from that fill layer. https://www.wikidata.org/wiki/Wikidata:Licensing
+
+FreeLing's data notices identify the following relevant resources:
+- French: LEFFF (Lexique des Formes Fléchies du Français), developed by Benoît Sagot at INRIA / Université de Paris 7; Lesser General Public License for Linguistic Resources (LGPL-LR).
+- Spanish: Spanish Resource Grammar dictionary, developed at the Institut Universitari de Lingüística Aplicada, Universitat Pompeu Fabra; LGPL-LR.
+- German: Morphy, extracted by Daniel Naber from Wolfgang Lezius's Morphy; Creative Commons Attribution-ShareAlike 3.0.
+The LGPL-LR resources and their use are covered by that license. The complete LGPL-LR text and the FreeLing source notices are included below in Acknowledgements and in the distributed data package.
+
+Nihongo modifications: explicit form/lemma mappings in corrections.json and conversion to front-coded SML2 tables. Corrections and SML2 conversion committed 2026-10-06; publication notices added 2026-10-07 and source-audit notices added 2026-10-09. Normalization version: simplemma-2.0.0-nihongo-1. The editable TSV files identify their modifications and date; provenance.json records the exact table hashes.
+
+Nihongo's correction contributions and database rights are offered under ODbL 1.0. This grant does not replace or restrict the licenses of the underlying contents. Portions derived from LGPL-LR resources retain LGPL-LR; Morphy-derived contents retain CC BY-SA 3.0; Wikinflection-derived contents retain CC BY 4.0. Wiktionary contents retain their applicable upstream terms; copies of CC BY-SA 3.0 and 4.0 are supplied for reference. Nothing here purports to relicense third-party material.
+
+These resources are provided without warranty, subject to the disclaimers in their applicable licenses. Original copyright notices and upstream licensing information are preserved in the accompanying license texts and FREELING-COPYING.txt.
+
+Open Database License 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+Creative Commons Attribution-ShareAlike 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+Creative Commons Attribution-ShareAlike 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (UD dataset source terms): https://creativecommons.org/licenses/by-nc-sa/4.0/
+LGPL-LR: https://github.com/TALP-UPC/FreeLing/blob/master/LICENSES/LGPLLR.license
+
+Editable data and the written offer: see the following “Simplemma — Data access and permissions” acknowledgement, or contact support@nihongo-app.com. Include the app version and normalization version above when requesting a matching copy.
+
+Matching editable data archive:
+https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-1/simplemma-2.0.0-nihongo-1-data.tar.gz
+Versioned source materials, generation tools and licenses:
+https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-1

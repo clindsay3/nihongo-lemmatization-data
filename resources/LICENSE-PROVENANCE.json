@@ -1,0 +1,141 @@
+{
+  "normalization_version": "simplemma-2.0.0-nihongo-1",
+  "notice_date": "2026-10-09",
+  "modified_by": "Nihongo",
+  "modifications": [
+    "Explicit form/lemma corrections in corrections.json",
+    "Conversion to front-coded SML2 tables and editable UTF-8 TSV files"
+  ],
+  "upstream_credits": "https://pypi.org/project/simplemma/2.0.0/#credits-and-licenses",
+  "source_attribution_limit": "Simplemma 2.0.0 does not supply per-entry source attribution; these notices do not certify license compatibility or relicense underlying contents.",
+  "license_files": {
+    "SIMPLEMMA-CODE-LICENSE.txt": {
+      "source_url": "https://raw.githubusercontent.com/adbar/simplemma/v2.0.0/LICENSE",
+      "sha256": "1aa8bb1cf730434bff3d62df4a73061e06dae9b0f6c9451a41de32dee4186c46",
+      "upstream_sha256": "32890a7ee993163fd9244fe98ebb8ed302734ac1ea0b2227eb7e511f32269332",
+      "formatting": "Whitespace normalized; wording unchanged."
+    },
+    "SIMPLEMMA-UPSTREAM-DATA-LICENSES.txt": {
+      "source_url": "https://raw.githubusercontent.com/adbar/simplemma/v2.0.0/licenses/Other.txt",
+      "sha256": "f005854b8593fae402935f638a980b90539f5811429fadcc48ebc7c773238b89"
+    },
+    "ODbL-1.0.txt": {
+      "source_url": "https://opendatacommons.org/licenses/odbl/odbl-10.txt",
+      "sha256": "1bac981ac10572b43afb12ec6538908068f2ec169f2e2d41380b35ec653fd5c5",
+      "upstream_sha256": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5",
+      "formatting": "Whitespace normalized; wording unchanged."
+    },
+    "CC-BY-4.0.txt": {
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "upstream_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "formatting": "Whitespace normalized; wording unchanged."
+    },
+    "CC-BY-SA-3.0.txt": {
+      "source_url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    },
+    "CC-BY-SA-4.0.txt": {
+      "source_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "FREELING-COPYING.txt": {
+      "source_url": "https://raw.githubusercontent.com/TALP-UPC/FreeLing/master/COPYING",
+      "sha256": "453bbedd399759539ea2929f84217beccb3804a22ebb67538aed3b7a5e17bbde",
+      "upstream_sha256": "fc3684c11a4b798ed51e7408920910a9641af63068024e1555181e00e1a23aa8",
+      "formatting": "Whitespace normalized; wording unchanged."
+    },
+    "LGPL-LR.txt": {
+      "source_url": "https://raw.githubusercontent.com/TALP-UPC/FreeLing/master/LICENSES/LGPLLR.license",
+      "sha256": "98afbfa4d1172e4f0a62252b853d587c52f9875f743da4b785854aab3c12ced2",
+      "upstream_sha256": "c02d70e02318549a35631d9e621587a306592a2599a53398eb8215ed0bd58c77",
+      "formatting": "Trailing line whitespace removed; license wording unchanged."
+    },
+    "UD-FRENCH-PARTUT-LICENSE.txt": {
+      "source_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_French-ParTUT/r2.18/LICENSE.txt",
+      "sha256": "d5488d5f0f01f5e0bb3de44a58f6e11e88b776e1c91a3e3775b880e72bca138e",
+      "upstream_sha256": "2249427564a370f86db0d8804af3292b8e68fd7800f2617dd045659ca2e9dc80",
+      "formatting": "Trailing line whitespace removed; source notice and license wording unchanged."
+    },
+    "UD-RUSSIAN-SYNTAGRUS-LICENSE.txt": {
+      "source_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Russian-SynTagRus/r2.18/LICENSE.txt",
+      "sha256": "3258892bc0af40c43a686e7f7267782778ffacf334acf25301f8f0fdab6c9cbe"
+    },
+    "UD-SOURCE-NOTICES.txt": {
+      "source_url": "https://github.com/adbar/simplemma/tree/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training",
+      "sha256": "4ad665e52868678787184444d3f95ecab70309a3a4c71e3e26c0786edc5e401a",
+      "formatting": "Nihongo source summary; original dataset license files are included separately."
+    }
+  },
+  "modification_dates": {
+    "corrections_and_sml2_conversion": "2026-10-06",
+    "publication_notices": "2026-10-07",
+    "source_audit_notices": "2026-10-09"
+  },
+  "upstream_generation": {
+    "simplemma_git_revision": "22a19bd457e332fd9b109ebf30ffdbb867d999ad",
+    "source_files": {
+      "training/README.rst": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/README.rst",
+        "sha256": "e30fb3582ac5593d0bf51c12724f89b1c645fe9bf3f4b7ee1ca0d091f2dcf067"
+      },
+      "training/download_eval_data.py": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/download_eval_data.py",
+        "sha256": "d2f778a3998e262f41ab5a0f671f0c70d246a5314db82b1e602f111eeec69cd1"
+      },
+      "training/build_override.py": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/build_override.py",
+        "sha256": "65155c95fbba14ee7db31c3eccd2519c6ebdbfd555ee2b0ce3c2bc09719e4a56"
+      },
+      "training/dictionary_builder.py": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/dictionary_builder.py",
+        "sha256": "bc3a8e42dbb1809d904facea916e6f981d22ebf30e969ef74fca65d4b604e042"
+      },
+      "training/ud_conllu.py": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/ud_conllu.py",
+        "sha256": "97be6b1de362b6cad35fe66c095a151b312409e78d7fcb4acca118f2381f1c6b"
+      }
+    },
+    "override_files": {
+      "de": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/overrides/de.tsv",
+        "sha256": "983500f6f5f881efc9fbd0eeb942147e8c3eeccb5f8d22436065e6310e4598b0",
+        "rows": 2869,
+        "exact_lemma_form_mappings_present_in_wheel": 2868
+      },
+      "fr": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/overrides/fr.tsv",
+        "sha256": "31ef2096bc3d54d75cf74fc40656d45a864529a227bde5199240176470aed054",
+        "rows": 1087,
+        "exact_lemma_form_mappings_present_in_wheel": 1084
+      },
+      "es": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/overrides/es.tsv",
+        "sha256": "902386cc757552943ef9b8022dda649015f9b0d8b65ca58bf79533a310b00b38",
+        "rows": 1041,
+        "exact_lemma_form_mappings_present_in_wheel": 1041
+      },
+      "nl": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/overrides/nl.tsv",
+        "sha256": "f1e016e71565be1d0ee353f2cf4414f66d061a50d9efe200349972e87201fe49",
+        "rows": 995,
+        "exact_lemma_form_mappings_present_in_wheel": 975
+      },
+      "ru": {
+        "url": "https://raw.githubusercontent.com/adbar/simplemma/22a19bd457e332fd9b109ebf30ffdbb867d999ad/training/overrides/ru.tsv",
+        "sha256": "97f2f07a1511abe6bb441823e78f7645dae61d79ea6b2a2d82dda5e7f55b9bab",
+        "rows": 6816,
+        "exact_lemma_form_mappings_present_in_wheel": 6816
+      }
+    },
+    "universal_dependencies_release": "2.18",
+    "history_limit": "The pinned pipeline mines all available training treebanks. Exact source history of each committed override is not supplied by upstream; overlap does not establish exclusive provenance.",
+    "source_notices": "UD-SOURCE-NOTICES.txt"
+  },
+  "public_distribution": {
+    "repository_url": "https://github.com/clindsay3/nihongo-lemmatization-data",
+    "release_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/tag/simplemma-2.0.0-nihongo-1",
+    "archive_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-1/simplemma-2.0.0-nihongo-1-data.tar.gz",
+    "versioned_source_url": "https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-1"
+  }
+}

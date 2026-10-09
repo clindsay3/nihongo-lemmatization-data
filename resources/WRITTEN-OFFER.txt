@@ -1,0 +1,17 @@
+Nihongo lemmatization data — written offer and permissions
+
+Applies to Nihongo and Nihongo Lessons versions using normalization version simplemma-2.0.0-nihongo-1.
+
+Under section 4(c) of the Lesser General Public License for Linguistic Resources (LGPL-LR), the publisher of Nihongo and Nihongo Lessons offers each recipient of such an app the materials specified in section 4(a) of that license, at no charge. This offer includes the complete corresponding machine-readable, editable linguistic resources, all modifications used by the app, and the applicable copyright notices and licenses. If section 4(a)'s encrypted-resource provisions apply, this offer also covers the corresponding work that uses the resource and the data and utility programs required by section 4, subject to that section's operating-system exception.
+
+This offer remains valid for at least three years after the publisher's last distribution of each covered app version. Request the matching materials by emailing support@nihongo-app.com and identifying the app name and version; the normalization version above also identifies the data. The same contact can provide the complete modified database and correction mappings offered under ODbL 1.0. Recipients may exercise the rights granted by the applicable data licenses without purchasing a subscription.
+
+To the extent required by LGPL-LR section 4, you are permitted to modify the package for your own use and to reverse engineer it to debug those modifications. These permissions take precedence over conflicting restrictions in the app's license terms. The applicable resource licenses also govern copying, modification and redistribution of those resources. This notice does not limit any rights granted by those licenses.
+
+The full LGPL-LR, ODbL and relevant Creative Commons license texts appear in the following Acknowledgements entries. The offer does not expire merely because this app or a data download is later discontinued.
+
+The matching editable data archive is available without authentication or a subscription:
+https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-1/simplemma-2.0.0-nihongo-1-data.tar.gz
+Generation tools, corrections, source notices and checksums for this version:
+https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-1
+The support-contact offer above remains available if a download is unavailable.
