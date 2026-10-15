@@ -2,12 +2,12 @@
 
 Editable German, French, Spanish, Russian and Dutch form/lemma tables used by
 Nihongo and Nihongo Lessons. Normalization version:
-**simplemma-2.0.0-nihongo-1**. These are Simplemma 2.0.0 tables with the explicit
+**simplemma-2.0.0-nihongo-2**. These are Simplemma 2.0.0 tables with the explicit
 changes in `Tools/corrections.json`; they do not include Nihongo dictionary
 definitions, example sentences, or user data.
 
-Download the [matching editable data archive](https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-1/simplemma-2.0.0-nihongo-1-data.tar.gz) or browse the
-[versioned source materials](https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-1). Both are publicly accessible
+Download the [matching editable data archive](https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-2/simplemma-2.0.0-nihongo-2-data.tar.gz) or browse the
+[versioned source materials](https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-2). Both are publicly accessible
 without authentication or a Nihongo subscription.
 
 ## Files
@@ -19,7 +19,7 @@ without authentication or a Nihongo subscription.
   provenance identifying the exact SML2 tables bundled in the apps.
 - `Tools/`: the generation tools and corrections. Python is used to generate
   data; it is not part of the apps.
-- `releases/simplemma-2.0.0-nihongo-1-data.tar.gz`: the matching editable data,
+- `releases/simplemma-2.0.0-nihongo-2-data.tar.gz`: the matching editable data,
   corrections, provenance and notices in one downloadable archive.
 - `SHA256SUMS`: checksums of the prepared files, excluding itself.
 
@@ -57,7 +57,7 @@ python3 Tools/generate_bundled_resources.py \
   --wheel /path/to/simplemma-2.0.0-py3-none-any.whl \
   --output resources \
   --rules-output generated/SimplemmaRuleData.swift \
-  --source-archive generated/simplemma-2.0.0-nihongo-1-data.tar.gz
+  --source-archive generated/simplemma-2.0.0-nihongo-2-data.tar.gz
 ```
 
 Compare the generated SML2 hashes with `resources/provenance.json` from the

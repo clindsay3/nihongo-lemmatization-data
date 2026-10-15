@@ -1,13 +1,13 @@
 {
-  "normalization_version": "simplemma-2.0.0-nihongo-1",
+  "normalization_version": "simplemma-2.0.0-nihongo-2",
   "simplemma_version": "2.0.0",
   "wheel_sha256": "db33b15f5aed6485a748ce34d1f510ca760af2633289ab9a8493e2afa785c352",
-  "corrections_sha256": "e58ababe7138c185e52d8935012bb77fab82837492b79ccbaf18a6b79be60b59",
+  "corrections_sha256": "55cc36a28a09536f7af833e215483c5dd4a09f1e5fd887182d53f82b48f306ca",
   "languages": {
     "de": {
       "entries": 1116464,
-      "bytes": 8236348,
-      "sha256": "95472010f3bba005431002a7cab950a76b22980aa3f64dc109d3da490d5f85bb"
+      "bytes": 8236351,
+      "sha256": "6e00b492d8aeb6a549a760529e9dd3d975ca7c41ea4b762c519c7d9ea56a13ba"
     },
     "fr": {
       "entries": 249556,
@@ -16,8 +16,8 @@
     },
     "es": {
       "entries": 823840,
-      "bytes": 5928466,
-      "sha256": "71a8c105bb616276023bf94b3643b0a9a4b4773164bb232766da0027a8344997"
+      "bytes": 5928468,
+      "sha256": "615cf79775486b947b7926cab464682d478d2a522b0a8533780a7e98a85fabe3"
     },
     "ru": {
       "entries": 1361909,

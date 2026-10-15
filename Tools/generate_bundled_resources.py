@@ -41,7 +41,7 @@ def literal(value):
     # JSON string escapes overlap Swift except for control Unicode escapes.
     return json.dumps(value,ensure_ascii=False).replace('\\/', '/')
 
-def generate_rules(path, version):
+def generate_rules(path, version, resources):
     from simplemma.tokenizer import TOKREGEX
     from simplemma.strategies.defaultprefixes import DEFAULT_KNOWN_PREFIXES
     from simplemma.strategies.defaultrules.es import DEFAULT_RULES, _EXCLUDED
@@ -51,7 +51,11 @@ def generate_rules(path, version):
     pattern=TOKREGEX.pattern.replace(r'[^\W\d_]',r'[\p{L}\p{Nl}\p{No}]').replace(r'\w',r'[\p{L}\p{N}_]')
     lines=['// Generated from the verified Simplemma 2.0.0 wheel; do not edit.',
            'import Foundation','enum SimplemmaRuleData {',f'    static let normalizationVersion = {literal(version)}',f'    static let tokenizer = {literal(pattern)}',
-           '    static let prefixes: [String: String] = [']
+           '    static let resources: [String: (entries: Int, bytes: Int, sha256: String)] = [']
+    for lang in LANGUAGES:
+        item=resources[lang]
+        lines.append(f'        {literal(lang)}: ({item["entries"]}, {item["bytes"]}, {literal(item["sha256"])}),')
+    lines+=['    ]', '    static let prefixes: [String: String] = [']
     for lang in LANGUAGES:
         if lang in DEFAULT_KNOWN_PREFIXES:lines.append(f'        {literal(lang)}: {literal(DEFAULT_KNOWN_PREFIXES[lang].pattern)},')
     lines+=['    ]','    static let spanishRules: [(String, String)] = [']
@@ -85,7 +89,6 @@ def main():
             archive.addfile(item,io.BytesIO(content))
     with zipfile.ZipFile(args.wheel) as wheel,tempfile.TemporaryDirectory() as tmp:
         wheel.extractall(tmp);sys.path.insert(0,tmp)
-        generate_rules(args.rules_output, corrections['version'])
         for language in LANGUAGES:
             mapping=dict(decode(lzma.decompress(wheel.read(f'simplemma/strategies/dictionaries/data/{language}.plzma'))))
             for patch in corrections['corrections'][language]:
@@ -100,6 +103,7 @@ def main():
                 add_source(f'{language}.tsv', (header+''.join(f'{k}\t{v}\n' for k,v in sorted(mapping.items()))).encode())
             file=args.output/f'{language}.sml';encode(mapping,file)
             report['languages'][language]={'entries':len(mapping),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()}
+        generate_rules(args.rules_output, corrections['version'], report['languages'])
     add_source('corrections.json',args.corrections.read_bytes())
     add_source('provenance.json',(json.dumps(report,ensure_ascii=False,indent=2)+'\n').encode())
     if archive is not None:
