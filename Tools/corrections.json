@@ -1,10 +1,8 @@
 {
-  "version": "simplemma-2.0.0-nihongo-2",
+  "version": "simplemma-2.0.0-nihongo-3",
   "corrections": {
     "de": [
-      {"forms": ["gegessen"], "lemma": "essen", "reason": "The common participle of essen incorrectly maps to weiteressen."},
-      {"forms": ["Guten"], "lemma": "gut", "reason": "Prefer the adjective at the start of greetings such as Guten Tag; match lowercase guten. This search choice also treats the ambiguous nominalized Guten as gut."},
-      {"forms": ["tag"], "lemma": "Tag", "reason": "Accept lowercase typing of the common noun Tag, including Guten tag. This search choice prefers the noun over the ambiguous imperative of tagen; other tagen forms remain unchanged."}
+      {"forms": ["gegessen"], "lemma": "essen", "reason": "The common participle of essen incorrectly maps to weiteressen."}
     ],
     "fr": [
       {"forms": ["vœu", "vœux"], "lemma": "voeu", "reason": "Match the upstream oe spelling of the same noun."},

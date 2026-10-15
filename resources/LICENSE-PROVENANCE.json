@@ -1,5 +1,5 @@
 {
-  "normalization_version": "simplemma-2.0.0-nihongo-2",
+  "normalization_version": "simplemma-2.0.0-nihongo-3",
   "notice_date": "2026-10-15",
   "modified_by": "Nihongo",
   "modifications": [
@@ -135,8 +135,8 @@
   },
   "public_distribution": {
     "repository_url": "https://github.com/clindsay3/nihongo-lemmatization-data",
-    "release_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/tag/simplemma-2.0.0-nihongo-2",
-    "archive_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-2/simplemma-2.0.0-nihongo-2-data.tar.gz",
-    "versioned_source_url": "https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-2"
+    "release_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/tag/simplemma-2.0.0-nihongo-3",
+    "archive_url": "https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-3/simplemma-2.0.0-nihongo-3-data.tar.gz",
+    "versioned_source_url": "https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-3"
   }
 }

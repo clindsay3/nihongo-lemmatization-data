@@ -19,7 +19,7 @@ FreeLing's data notices identify the following relevant resources:
 - German: Morphy, extracted by Daniel Naber from Wolfgang Lezius's Morphy; Creative Commons Attribution-ShareAlike 3.0.
 The LGPL-LR resources and their use are covered by that license. The complete LGPL-LR text and the FreeLing source notices are included below in Acknowledgements and in the distributed data package.
 
-Nihongo modifications: explicit form/lemma mappings in corrections.json and conversion to front-coded SML2 tables. Corrections and SML2 conversion committed 2026-10-06; publication notices added 2026-10-07 and source-audit notices added 2026-10-09; German greeting and Spanish buscar mappings corrected 2026-10-15. Normalization version: simplemma-2.0.0-nihongo-2. The editable TSV files identify their modifications and date; provenance.json records the exact table hashes.
+Nihongo modifications: explicit form/lemma mappings in corrections.json and conversion to front-coded SML2 tables. Corrections and SML2 conversion committed 2026-10-06; publication notices added 2026-10-07 and source-audit notices added 2026-10-09; Spanish buscar mappings corrected and German default readings restored 2026-10-15. Normalization version: simplemma-2.0.0-nihongo-3. The editable TSV files identify their modifications and date; provenance.json records the exact table hashes.
 
 Nihongo's correction contributions and database rights are offered under ODbL 1.0. This grant does not replace or restrict the licenses of the underlying contents. Portions derived from LGPL-LR resources retain LGPL-LR; Morphy-derived contents retain CC BY-SA 3.0; Wikinflection-derived contents retain CC BY 4.0. Wiktionary contents retain their applicable upstream terms; copies of CC BY-SA 3.0 and 4.0 are supplied for reference. Nothing here purports to relicense third-party material.
 
@@ -35,6 +35,6 @@ LGPL-LR: https://github.com/TALP-UPC/FreeLing/blob/master/LICENSES/LGPLLR.licens
 Editable data and the written offer: see the following “Simplemma — Data access and permissions” acknowledgement, or contact support@nihongo-app.com. Include the app version and normalization version above when requesting a matching copy.
 
 Matching editable data archive:
-https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-2/simplemma-2.0.0-nihongo-2-data.tar.gz
+https://github.com/clindsay3/nihongo-lemmatization-data/releases/download/simplemma-2.0.0-nihongo-3/simplemma-2.0.0-nihongo-3-data.tar.gz
 Versioned source materials, generation tools and licenses:
-https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-2
+https://github.com/clindsay3/nihongo-lemmatization-data/tree/simplemma-2.0.0-nihongo-3
